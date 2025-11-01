@@ -172,7 +172,7 @@ footer {
 }
 
 /* Responsive */
- @media (max-width: 600px) {
+ @media (max-width: 1025px) {
   .about-container {
     flex-direction: column;
     text-align: center;
