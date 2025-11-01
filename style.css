@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color:aqua;
+  color:rgb(191, 216, 216);
   text-emphasis: bold;
 }
 
@@ -167,14 +167,49 @@ footer {
 }
 
 /* Responsive */
+/* @media (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  } */
+@media (min-width: 1025px) {
+  .about-container {
+    flex-direction: row;
+    padding: 60px 120px;
+  }
+}
+
+/* --- Medium screens (Tablets) --- */
+@media (max-width: 1024px) and (min-width: 601px) {
+  .about-container {
+    flex-direction: row;
+    padding: 40px 60px;
+    gap: 30px;
+  }
+}
+
+/* --- Small screens (Mobile) --- */
 @media (max-width: 600px) {
   .about-container {
     flex-direction: column;
     text-align: center;
+    padding: 20px;
+    gap: 20px;
   }
+
+  .about-container img {
+    width: 80%;
+    height: auto;
+  }
+
+  .about-container p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
 
   .profile-pic {
     margin-bottom: 20px;
   }
-}
+
 
