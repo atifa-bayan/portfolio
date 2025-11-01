@@ -172,16 +172,16 @@ footer {
 }
 
 /* Responsive */
-/* @media (max-width: 600px) {
+ @media (max-width: 600px) {
   .about-container {
     flex-direction: column;
     text-align: center;
-  } */
-@media (min-width: 1025px) {
+  } 
+/* @media (min-width: 1025px) {
   .about-container {
     flex-direction: row;
     padding: 60px 120px;
-  }
+  } */
 }
 
 /* --- Medium screens (Tablets) --- */
